@@ -1,11 +1,17 @@
 <template>
     <div class="sideWrapper">
         <h3>SIDE</h3>
+        <Card height="100" content="test" />
+        <Card height="100" content="test" />
+        <Card height="100" content="test" />
     </div>
 </template>
 <script>
+import Card from "./Card.vue";
     export default {
         name: "Side",
+        components: { Card },
+
     };
 </script>
 <style scoped>
