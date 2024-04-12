@@ -1,17 +1,24 @@
 <template>
     <div class="wrapper">
         <Header />
-        <div class="bottomWrapper"></div>
+        <div class="bottomWrapper">
+            <Content />
+            <Side />
+        </div>
     </div>
     
 </template>
 <script>
 
 import Header from "./components/Header.vue";
+import Content from "./components/Content.vue";
+import Side from "./components/Side.vue";
 export default {
     name: "App",
     components: {
         Header,
+        Content,
+        Side
     },
 
 };
