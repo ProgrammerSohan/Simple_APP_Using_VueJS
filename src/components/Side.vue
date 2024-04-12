@@ -1,9 +1,9 @@
 <template>
     <div class="sideWrapper">
         <h3>SIDE</h3>
-        <Card height="100" content="test" />
-        <Card height="100" content="test" />
-        <Card height="100" content="test" />
+        <Card height="100px" content="test" />
+        <Card height="100px" content="test" />
+        <Card height="100px" content="test" />
     </div>
 </template>
 <script>
@@ -22,6 +22,7 @@ import Card from "./Card.vue";
     background-color: rgb(208, 203, 203);
     flex: 1;
     justify-content: center;
+    gap: 20px;
 
 }
 </style>

@@ -1,14 +1,13 @@
 <template>
-    <div class="card">
+    <div class="card" :style="{ height: height ? height : '' }">
         <h4>Sohan Sujan</h4>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, possimus! Similique esse quaerat delectus natus quis ex quos dolores inventore corporis, obcaecati commodi repellat doloremque, enim error dolorem est placeat.
-        </p>
+        <p> {{ content }} </p>
     </div>
 </template>
 <script>
 export default {
     name: "Card",
+    props: ["height", "content"],
 };
 
 </script>
